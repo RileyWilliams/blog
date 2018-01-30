@@ -1,0 +1,18 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Random Bits"
+Paginate = 10
+theme = "purehugo"
+contentDir = "content"
+defaultLayout = 	"post"
+
+[params]
+  githubName = "rileywilliams"
+  description= "A security focused blog." 
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+
